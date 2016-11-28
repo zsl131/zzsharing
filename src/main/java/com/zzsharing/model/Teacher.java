@@ -7,25 +7,13 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "t_teacher")
-public class Teacher {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
+public class Teacher extends BaseEntity {
 
     private String name;
 
     private String headimg;
 
     private String remark;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
