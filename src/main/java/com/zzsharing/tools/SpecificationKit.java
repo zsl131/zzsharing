@@ -17,9 +17,11 @@ public class SpecificationKit {
 
     public static Specification buildSpe(List<SearchSpe> ...spes) {
 
+        return null;
     }
 
     public static Specification buildSpe(SearchSpe ...spe) {
 
+        return null;
     }
 }
