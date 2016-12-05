@@ -1,1 +1,1 @@
-mvn spring-boot:run -Dspring.profiles.active=kh
+mvn spring-boot:run -Dspring.profiles.active=khaa 
